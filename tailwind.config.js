@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        navbarBg: '#cce0f0',
+        bodyBg: '#d6c3de'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
