@@ -20,25 +20,25 @@ const Main = () => {
             </p>
             <div className="flex justify-between items-center my-4 md:w-[50%] w-full">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300">
-              <Link href="https://www.linkedin.com/in/mariam-eneji-72339a239/">
+              <Link href="https://www.linkedin.com/in/mariam-eneji-72339a239/" target='_blank'>
                 <FaLinkedinIn />
               </Link>
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300">
-              <Link href="https://github.com/MariamEneji">
+              <Link href="https://github.com/MariamEneji" target='_blank'>
                 <FaGithub />
               </Link>
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300">
-              <Link href="https://twitter.com/Mariam_Eneji">
+              <Link href="https://twitter.com/Mariam_Eneji" target='_blank'>
                 <FaTwitter />
               </Link>
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300">
-              <Link href="mailto: enejimariam1997@gmail.com">
+              <Link href="mailto: enejimariam1997@gmail.com" target='_blank'>
                 {" "}
                 <BsFillPersonLinesFill />
               </Link>

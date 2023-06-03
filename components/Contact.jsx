@@ -35,19 +35,19 @@ const Contact = () => {
                           
                 <div className='flex justify-between items-center py-4 w-full'>
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link  href='https://www.linkedin.com/in/mariam-eneji-72339a239/'><FaLinkedinIn /></Link>
+                    <Link  href='https://www.linkedin.com/in/mariam-eneji-72339a239/' target='_blank'><FaLinkedinIn /></Link>
                     </div>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='https://github.com/MariamEneji' ><FaGithub /></Link>
+                    <Link href='https://github.com/MariamEneji' target='_blank' ><FaGithub /></Link>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='https://twitter.com/Mariam_Eneji'> <FaTwitter /></Link>
+                    <Link href='https://twitter.com/Mariam_Eneji' target='_blank'> <FaTwitter /></Link>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='mailto: enejimariam1997@gmail.com'> <BsFillPersonLinesFill /></Link>
+                    <Link href='mailto: enejimariam1997@gmail.com' target='_blank'> <BsFillPersonLinesFill /></Link>
                     </div>
                     
 
