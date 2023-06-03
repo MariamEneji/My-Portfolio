@@ -108,19 +108,19 @@ window.addEventListener('scroll', handleShadow)
                 <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
                 <div className='flex justify-between items-center w-[75%] my-4'>
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link  href=''><FaLinkedinIn /></Link>
+                    <Link  href='https://www.linkedin.com/in/mariam-eneji-72339a239/'><FaLinkedinIn /></Link>
                     </div>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='' ><FaGithub /></Link>
+                    <Link href='https://github.com/MariamEneji' ><FaGithub /></Link>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href=''> <FaTwitter /></Link>
+                    <Link href='https://twitter.com/Mariam_Eneji'> <FaTwitter /></Link>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href=''> <BsFillPersonLinesFill /></Link>
+                    <Link href='mailto: enejimariam1997@gmail.com'> <BsFillPersonLinesFill /></Link>
                     </div>
                     
                     
