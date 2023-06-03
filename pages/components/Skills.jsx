@@ -32,7 +32,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/css.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/css.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>CSS</h3>
@@ -48,7 +48,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/javascript.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/javascript.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>JAVASCRIPT</h3>
@@ -64,7 +64,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/react.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/react.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>REACT</h3>
@@ -80,7 +80,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/nextjs.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/nextjs.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>NEXT JS</h3>
@@ -96,7 +96,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/tailwind.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/tailwind.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>TAILWIND CSS</h3>
@@ -112,7 +112,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/github1.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/github1.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>GITHUB</h3>
@@ -126,7 +126,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
 
                         <div className='m-auto'>
-                            <Image src='/assets/skills/webflow1.png' width='64' height='64' />
+                            <Image alt= '/' src='/assets/skills/webflow1.png' width='64' height='64' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>WEBFLOW</h3>
