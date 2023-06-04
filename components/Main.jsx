@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
-    <div className=' flex items-center justify-center h-screen mb-12
+    <div id="main" className=' flex items-center justify-center h-screen mb-12
     bg-cover bg-center pt-48 px-4 md:px-32 custom-img '>
         {/* Overlay */}
         <div className='absolute top-0 bottom-0 left-0 right-0 z-[2]' />

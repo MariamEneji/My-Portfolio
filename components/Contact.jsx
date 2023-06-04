@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
+import { Link } from 'react-scroll'
 import {FaLinkedinIn, FaGithub, FaTwitter} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
@@ -7,7 +8,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='w-full lg:h-screen'>
+    <div id='contact' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
             <h2 className='text-3xl font-bold py-4'>Get in Touch</h2>
@@ -35,19 +36,19 @@ const Contact = () => {
                           
                 <div className='flex justify-between items-center py-4 w-full'>
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link  href='https://www.linkedin.com/in/mariam-eneji-72339a239/' target='_blank'><FaLinkedinIn /></Link>
+                    <a  href='https://www.linkedin.com/in/mariam-eneji-72339a239/' target='_blank'><FaLinkedinIn /></a>
                     </div>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='https://github.com/MariamEneji' target='_blank' ><FaGithub /></Link>
+                    <a href='https://github.com/MariamEneji' target='_blank' ><FaGithub /></a>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='https://twitter.com/Mariam_Eneji' target='_blank'> <FaTwitter /></Link>
+                    <a href='https://twitter.com/Mariam_Eneji' target='_blank'> <FaTwitter /></a>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='mailto: enejimariam1997@gmail.com' target='_blank'> <BsFillPersonLinesFill /></Link>
+                    <a href='mailto: enejimariam1997@gmail.com' target='_blank'> <BsFillPersonLinesFill /></a>
                     </div>
                     
 
@@ -109,7 +110,7 @@ const Contact = () => {
 
 
             <div className='flex justify-center py-12' >
-            <Link href='/'>
+            <Link to="main" spy={true} smooth={true} offset={50} duration={500}>
     <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
         <HiOutlineChevronDoubleUp size={30} className='m-auto text-[#5651e5]' />
     </div>

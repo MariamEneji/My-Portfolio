@@ -1,9 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import { Link } from 'react-scroll'
 
 const About = () => {
   return (
-    <div  className='w-full flex p-2 md:h-screen items-center py-16 '>
+    <div id='about'  className='w-full flex p-2 md:h-screen items-center py-16 '>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-6 '>
         <div className='col-span-2' >
           <h2 className='font-bold text-3xl' >A little about me</h2>
@@ -11,7 +12,10 @@ const About = () => {
             </p>
             <p className='py-2 text-gray-400'>I decided to take the journey into Software engineering and I'm loving it. I'm currently enrolled in AltSchool Africa to broaden my horizon. I work hard and smart and I'm an awesome team player. I look forward to working with you.</p>
 
+            <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>
             <p className='text-blue-500 cursor-pointer py-2 underline'>Check out some of my latest projects</p>
+            </Link>
+            
        
         </div>
 

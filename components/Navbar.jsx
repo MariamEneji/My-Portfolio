@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
+import { Link } from 'react-scroll'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub, FaTwitter} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -32,29 +33,29 @@ window.addEventListener('scroll', handleShadow)
     <div className={shadow ? 'fixed bg-[#ecf0f3] w-full h-20 shadow-xl z-50 ' : 'fixed bg-[#ecf0f3] w-full h-20 z-50'
    } >
         <div className='flex justify-between items-center w-full h-full px-2 md:px-16 '>
-        <Link href='/' >
+        <Link to="main" spy={true} smooth={true} offset={-100} duration={500}    >
         <Image src="/assets/M.png" alt="/" width={80} height={80} />
         </Link>
 
             <ul className='hidden md:flex justify-between gap-4  '> 
                 <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
-                    <Link href='/'>Home</Link>
+                    <Link to="main" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
-                    <Link href='/'>About</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
-                    <Link href='/'>Skills</Link>
+                    <Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>Skills</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
-                    <Link href='/'>Projects</Link>
+                    <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
-                    <Link href='/'>Contact Me</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact Me</Link>
                 </li>
             </ul>
 
@@ -72,7 +73,9 @@ window.addEventListener('scroll', handleShadow)
 
 
                     <div className='flex justify-between items-center w-full'>
+                   < Link to="main" spy={true} smooth={true} offset={-100} duration={500} onClick={handleNav}>
                     <Image src="/assets/M.png" alt="/" width={40} height={40} />
+                    </Link>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer'> <AiOutlineClose  /></div>
                     </div>
 
@@ -84,23 +87,23 @@ window.addEventListener('scroll', handleShadow)
                 <div className=' flex flex-col '>
                 <ul> 
                 <li className='hover:font-bold uppercase text-sm py-2 '>
-                    <Link href='/'>Home</Link>
+                    <Link to="main" spy={true} smooth={true} offset={-100} duration={500} onClick={handleNav}>Home</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm py-2'>
-                    <Link href='/'>About</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={handleNav}>About</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm py-2'>
-                    <Link href='/'>Skills</Link>
+                    <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={handleNav}>Skills</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm py-2'>
-                    <Link href='/'>Projects</Link>
+                    <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={handleNav}>Projects</Link>
                 </li>
 
                 <li className='hover:font-bold uppercase text-sm py-2'>
-                    <Link href='/'>Contact Me</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={handleNav}>Contact Me</Link>
                 </li>
             </ul>
 
@@ -108,19 +111,19 @@ window.addEventListener('scroll', handleShadow)
                 <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
                 <div className='flex justify-between items-center w-[75%] my-4'>
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link  href='https://www.linkedin.com/in/mariam-eneji-72339a239/' target='_blank' ><FaLinkedinIn /></Link>
+                    <a  href='https://www.linkedin.com/in/mariam-eneji-72339a239/' target='_blank' ><FaLinkedinIn /></a>
                     </div>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='https://github.com/MariamEneji' target='_blank'  ><FaGithub /></Link>
+                    <a href='https://github.com/MariamEneji' target='_blank'  ><FaGithub /></a>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='https://twitter.com/Mariam_Eneji' target='_blank' > <FaTwitter /></Link>
+                    <a href='https://twitter.com/Mariam_Eneji' target='_blank' > <FaTwitter /></a>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-2 cursor-pointer hover:scale-105 duration-300'>
-                    <Link href='mailto: enejimariam1997@gmail.com' target='_blank' > <BsFillPersonLinesFill /></Link>
+                    <a href='mailto: enejimariam1997@gmail.com' target='_blank' > <BsFillPersonLinesFill /></a>
                     </div>
                     
                     
