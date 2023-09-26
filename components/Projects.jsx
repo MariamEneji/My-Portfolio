@@ -1,8 +1,8 @@
 import React from 'react'
-import aboutme from '/public/assets/projects/aboutme.jpg'
-import clock from '/public/assets/projects/clock.jpg'
-import movieApp from '/public/assets/projects/movie app.png'
-import Image from '/public/assets/projects/Image.jpg'
+import aboutme from '../public/assets/projects/aboutme.JPG'
+import clock from '../public/assets/projects/clock.JPG'
+import movieApp from '../public/assets/projects/movie app.PNG'
+import Image from '../public/assets/projects/Image.JPG'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
