@@ -5,11 +5,11 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
-    <div id="main" className=' flex items-center justify-center h-screen mb-12
-    bg-cover bg-center pt-48 px-4 md:px-32 custom-img '>
+    <div id="main" className=' gap-10 flex items-center justify-center h-screen mb-12
+    bg-cover bg-center  pt-48 px-4 md:px-32 custom-img '>
         {/* Overlay */}
         <div className='absolute top-0 bottom-0 left-0 right-0 z-[2]' />
-        <div className='p-5 z-[2]  mt-[-10rem] shadow-xl shadow-gray-400 rounded-xl'>
+        <div className='p-5 z-[2]  mt-[-10rem] '>
         <h1 className="text-5xl py-4">
               Hi, I'm <span className="font-bold text-red-600">Mariam</span>
             </h1>
@@ -32,7 +32,7 @@ const Main = () => {
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300">
-              <Link href="https://twitter.com/Mariam_Eneji" target='_blank'>
+              <Link href="https://twitter.com/MariamEneji" target='_blank'>
                 <FaTwitter />
               </Link>
             </div>
@@ -47,6 +47,7 @@ const Main = () => {
           </div>
             
         </div>
+        
     </div>
  
   );

@@ -38,23 +38,23 @@ window.addEventListener('scroll', handleShadow)
         </Link>
 
             <ul className='hidden md:flex justify-between gap-4  '> 
-                <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
+                <li className='hover:font-bold uppercase text-sm  p-2'>
                     <Link to="main" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
                 </li>
 
-                <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
+                <li className='hover:font-bold uppercase text-sm p-2'>
                     <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
                 </li>
 
-                <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
+                <li className='hover:font-bold uppercase text-sm p-2'>
                     <Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>Skills</Link>
                 </li>
 
-                <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
+                <li className='hover:font-bold uppercase text-sm p-2'>
                     <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link>
                 </li>
 
-                <li className='hover:font-bold uppercase text-sm shadow-xl shadow-gray-400 rounded-xl p-2'>
+                <li className='hover:font-bold uppercase text-sm p-2'>
                     <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact Me</Link>
                 </li>
             </ul>

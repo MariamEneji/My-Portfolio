@@ -19,7 +19,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image  className='rounded-xl w-full hover:scale-105 ease-in duration-300' src="/assets/contact.jpg" width='1240' height='1240'
+                            <Image  className='rounded-xl w-full hover:scale-105 ease-in duration-300' src="/assets/M.png" width='1240' height='1240'
                             alt="/" />
                         </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
-                    <a href='https://twitter.com/Mariam_Eneji' target='_blank'> <FaTwitter /></a>
+                    <a href='https://twitter.com/MariamEneji' target='_blank'> <FaTwitter /></a>
                     </div>
 
                     <div  className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 duration-300'>
