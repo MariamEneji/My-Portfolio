@@ -6,6 +6,7 @@ import aboutme from '/public/assets/aboutme.jpg'
 import clock from '/public/assets/clock.jpg'
 import movieApp from '/public/assets/movie app.jpg'
 import Image from '/public/assets/Image.jpg'
+import reeves from '/public/assets/reeves.jpg'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -16,6 +17,9 @@ const Projects = () => {
         <h2 className='text-3xl font-bold py-4'>What I've Built</h2>
 
         <div className='grid md:grid-cols-2 gap-8'>
+
+        <ProjectItem title='Reeves Shop' backgroundImg={reeves} projectUrl='https://timbu-app.vercel.app' tech='Next Js' />
+
           <ProjectItem title='Movie App' backgroundImg={movieApp} projectUrl='https://hng-movie-app-gamma.vercel.app/' tech='Vite + React' />
 
           <ProjectItem title='Image Search App' backgroundImg={Image} projectUrl='https://hng-image-gallery-plum.vercel.app/home' tech='React Js' />
