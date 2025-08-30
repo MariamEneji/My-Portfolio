@@ -8,6 +8,8 @@ import movieApp from '/public/assets/movie app.jpg'
 import Image from '/public/assets/Image.jpg'
 import reeves from '/public/assets/reeves.jpg'
 import elvis from '/public/assets/elvis.png'
+import vessels from '/public/assets/vesselsimg.png'
+import solution from '/public/assets/solutionimg.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -18,6 +20,10 @@ const Projects = () => {
         <h2 className='text-3xl font-bold py-4'>What I've Built</h2>
 
         <div className='grid md:grid-cols-2 gap-8'>
+
+        <ProjectItem title='Gauge vessels Limited' backgroundImg={vessels} projectUrl='https://gaugevessels.com/' tech='Next Js' />
+
+        <ProjectItem title='Gauge Solution' backgroundImg={solution} projectUrl='https://gaugesolution.com/' tech='Next Js' />
 
         <ProjectItem title='Portfolio Website' backgroundImg={elvis} projectUrl='https://elvis-anselm.vercel.app' tech='Next Js' />
 
